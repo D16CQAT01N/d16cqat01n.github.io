@@ -1,0 +1,84 @@
+/* 
+  -----------------------------------
+  Menubar Magic
+  by Project Seven Development
+  www.projectseven.com
+  Theme 02: SilverBlue
+  Horizontal
+  -----------------------------------
+*/
+.p7MBM02h {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: inherit;
+	background-image: url(p7mbm_silverblue_hz.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	border-right: 1px solid #9B9B9B;
+	zoom: 1;
+	border-bottom: 1px solid #9B9B9B;
+	border-left: 1px solid #E5E5E5;
+}
+.p7MBM02h ul {
+	margin: 0px;
+	padding: 0px;
+}
+.p7MBM02h li {
+	float: left;
+	margin-right: 0px;
+	list-style-type: none;
+	padding: 0px;
+	background-color: #B2B2B2;
+	border-right-width: 1px;
+	border-right-style: none;
+	border-right-color: #333333;
+}
+.p7MBM02h li.p7MBfirst {
+	border-left: 0;
+}
+.p7MBM02h li.p7MBlast {}
+
+.p7MBM02h a {
+	background-image: url(p7mbm_silverblue_hz.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: 0px -164px;
+	padding: 10px 12px 10px 14px;
+	color: #F00;
+	text-decoration: none;
+}
+.p7MBM02h a.p7MBfirst {}
+
+.p7MBM02h a.p7MBlast {}
+
+.p7MBM02h a:hover {
+	color: #090;
+}
+.p7MBM02h .p7MBmark {
+	font-weight: bold;
+	color: #0C0;
+	cursor: default;
+}
+.p7MBM02h .p7MBmark:hover {
+	color: #FFFFFF;
+}
+.p7mb_clearfloat {
+	clear: both;
+	height: 0;
+	line-height: 0.0;
+	font-size: 0;
+}
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: #F6C;
+	text-align: center;
+	text-decoration: underline;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #0FF;
+	border-right-color: #0FF;
+	border-bottom-color: #0FF;
+	border-left-color: #0FF;
+}

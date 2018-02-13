@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>D16CQAT01-N</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="p7MBM02h.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="p7MBscripts.js"></script>
+</head>
+
+<body>
+
+	<a name="dautrang"></a>
+	<header id="header">
+      <img id="logo" src=inf-logo.png alt="IS logo">
+      <h1>INFORMATION SECURITY</h1>
+      <p>
+        <a href="https://www.facebook.com/groups/686019028227770" target="_blank">#D16CQAT01-N</a>
+      </p>
+    </header>
+
+	<div class="wrapper">
+  
+  <div class="mainnenu">
+    <div id="p7MBM_1" class="p7MBM02h">
+      <ul>
+        <li class="cen-tral"><a href="index.html">TRANG CHỦ</a></li>
+        <li class="cen-tral"><a href="blog.html">BLOG</a></li>
+        <li class="cen-tral"><a href="sourcecode.html">SOURCE CODE</a></li>
+        <li class="cen-tral"><a href="gioithieu.html">GIỚI THIỆU</a></li>
+      </ul>
+      <!--[if lte IE 6]>
+<style>.p7MBM02h a {height:1%;float:left;} .p7MBM02h, .p7MBM02h li {height:1%;}</style>
+<![endif]-->
+      <script type="text/javascript">
+<!--
+P7_MBop('p7MBM_1',1,0,-164,0,0,-40,350,250,1,1);
+//-->
+    </script>
+      <div class="p7mb_clearfloat">&nbsp;</div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
+  <div class="content">
+  <h2>POSTORDER TRAVERSAL RECURSIVE</h2>
+  	<nav class="left-mg pre">	
+#include <stdio.h>
+#include <stdlib.h>
+struct BinaryTreeNode{
+    int data;
+    struct BinaryTreeNode *left;
+    struct BinaryTreeNode *right;
+};
+
+void postOrder(struct BinaryTreeNode* root){
+     if (root == NULL) // or if (!root)
+          return;
+       
+     postOrder(root->left);  
+     postOrder(root->right);
+     printf("%d ", root->data);
+} 
+
+int testPostOrder(){
+    /* Sample binary tree is
+            9
+          /   \
+        19      1
+         \    /
+          3  6
+    */
+    struct BinaryTreeNode* root = createNewNode(9);
+    root->left        = createNewNode(19);
+    root->right       = createNewNode(1);
+    struct BinaryTreeNode* temp = root->left;
+    temp->right  = createNewNode(3);
+    temp = root->right;
+    temp->left = createNewNode(6);
+    postOrder(root);
+    return 0;
+}
+	
+    </nav>
+        
+        
+  </div>
+  <div class="clear"></div>
+  
+  <div class="footer">
+      Cơ quan chủ quản: D16CQAT01-N<br />
+      Tel: +841637824466 - Email: <a href="mailto:idtrancer@gmail.com">idtrancer@gmail.com</a><br />
+      Địa chỉ: 97 Man Thiện, P. Hiệp Phú, Q. 9, TP. Hồ Chí Minh<br />
+      <br />
+      <a class="button" href="https://www.facebook.com/groups/686019028227770" target="_blank">Made by <strong>D16CQAT01-N</strong></a>
+      <a class="button" href="#dautrang" title="Về đầu trang"><strong>^</strong></a>
+  </div>
+  <div class="clear"></div>
+  
+</div> 
+
+</body>
+</html>
